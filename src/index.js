@@ -9,6 +9,7 @@ import store from './app/store';
 
 import 'antd/dist/antd.css';
 
+//index.js file
 ReactDOM.render(
   <React.StrictMode>
     <Router>
