@@ -6,6 +6,8 @@ import HTMLReactParser from 'html-react-parser';
 import { useGetExchangesQuery } from '../services/cryptoApi';
 import Loader from './Loader';
 
+//exchanges in here but premium plan needed
+
 const { Text } = Typography;
 const { Panel } = Collapse;
 

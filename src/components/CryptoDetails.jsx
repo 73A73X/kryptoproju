@@ -9,6 +9,8 @@ import { useGetCryptoDetailsQuery, useGetCryptoHistoryQuery } from '../services/
 import Loader from './Loader';
 import LineChart from './LineChart';
 
+
+//cryptodetails here
 const { Title, Text } = Typography;
 const { Option } = Select;
 

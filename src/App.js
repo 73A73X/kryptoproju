@@ -4,6 +4,8 @@ import { Layout, Typography, Space } from 'antd';
 
 import { Exchanges, Homepage, News, Cryptocurrencies, CryptoDetails, Navbar } from './components';
 import './App.css';
+import { AdvancedRealTimeChart } from 'react-ts-tradingview-widgets';
+
 
 //App.js file
 
@@ -18,6 +20,9 @@ const App = () => (
           <Switch>
             <Route exact path="/">
               <Homepage />
+            </Route>
+            <Route exact path="/charts">
+              <AdvancedRealTimeChart />
             </Route>
             <Route exact path="/exchanges">
               <Exchanges />
@@ -35,9 +40,9 @@ const App = () => (
         </div>
       </Layout>
       <div className="footer">
-        <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>Copyright © 2021
+        <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>Copyright © 2022
           <Link to="/">
-            Cryptoverse Inc.
+            Cryptoversumi Inc.
           </Link> <br />
           All Rights Reserved.
         </Typography.Title>
