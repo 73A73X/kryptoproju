@@ -3,8 +3,10 @@
 ![Cryptoverse](https://i.ibb.co/8gh5Jc8/image.png)
 
 ## Introduction
-This is a code repository for the corresponding video tutorial. 
+Frontend is made with a react and the data to backend is fetched from the site named rapidapi.
 
-In this video, we will create a cryptocurrency app. We're going to use React and multiple APIs powered by https://rapidapi.com.
+The websites idea is to show the biggest cryptos in the world, their market cap and so on.
 
-By the end of this video, you will become the master of working with APIs.
+The project is still in progress and in the future it will have the members area, which will
+have some special stuff about trading and so on.
+
