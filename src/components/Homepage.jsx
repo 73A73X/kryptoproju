@@ -2,6 +2,7 @@ import React from 'react';
 import millify from 'millify';
 import { Typography, Row, Col, Statistic } from 'antd';
 import { Link } from 'react-router-dom';
+import { MarketData, TickerTape } from "react-ts-tradingview-widgets";
 
 import { useGetCryptosQuery } from '../services/cryptoApi';
 import Cryptocurrencies from './Cryptocurrencies';
@@ -16,8 +17,10 @@ const Homepage = () => {
 
   if (isFetching) return <Loader />;
 
+  
   return (
     <>
+      <TickerTape colorTheme="grey"></TickerTape>
       <Title level={2} className="heading">Global Crypto Stats</Title>
       <Row gutter={[32, 32]}>
         <Col span={12}><Statistic title="Total Cryptocurrencies" value={globalStats.total} /></Col>
