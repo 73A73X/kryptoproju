@@ -9,9 +9,9 @@ React Components seen by the user:
 - Navbar 
 - Homepage 
 - Charts (Data and widgets provided by Tradingview.com)
-- Cryptocurrencies (Data from RapidAPi backend)
-- Exchanges (Data from RapidAPi backend)
-- News (Data from RapidAPi backend)
+- Cryptocurrencies (Data from RapidAPi to backend)
+- Exchanges (Data from RapidAPi to backend)
+- News (Data from RapidAPi to backend)
 
 Backend data is fetched from the RapidApi:
 - (Apikeys, querys, endpoints)
