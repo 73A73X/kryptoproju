@@ -1,7 +1,6 @@
 # Cryptoversumi - Explore the World of Cryptocurrency
 
-![Cryptoversumi](<img src="https://i.ibb.co/s59mtSp/crypto.png" alt="crypto" border="0">)
-
+![Cryptoversumi](https://i.ibb.co/s59mtSp/crypto.png)
 ## Introduction
 Frontend is made with a react.
 Backend with Javascript
