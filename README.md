@@ -1,7 +1,6 @@
 # Cryptoversumi - Explore the World of Cryptocurrency
 
 ![Cryptoversumi](https://i.ibb.co/8gh5Jc8/image.png)
-![Cryptoversumi](https://ibb.co/fYjty60)
 
 ## Introduction
 Frontend is made with a react and the data to backend is fetched from the site named rapidapi.
