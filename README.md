@@ -13,8 +13,7 @@ React Components seen by the user:
 - Exchanges (Data from RapidAPi to backend)
 - News (Data from RapidAPi to backend)
 
-Backend data is fetched from the RapidApi:
-- (Apikeys, querys, endpoints)
+Backend data is from the RapidApi:
 
 The websites idea is to show the biggest cryptos in the world, their market cap and so on.
 
