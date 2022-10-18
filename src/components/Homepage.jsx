@@ -1,13 +1,14 @@
-import React from 'react';
-import millify from 'millify';
-import { Typography, Row, Col, Statistic } from 'antd';
-import { Link } from 'react-router-dom';
+import React from "react";
+import millify from "millify";
+import { Typography, Row, Col, Statistic } from "antd";
+import { Link } from "react-router-dom";
 import { TickerTape, AdvancedRealTimeChart } from "react-ts-tradingview-widgets";
+import "./Charts.css";
 
-import { useGetCryptosQuery } from '../services/cryptoApi';
-import Cryptocurrencies from './Cryptocurrencies';
-import News from './News';
-import Loader from './Loader';
+import { useGetCryptosQuery } from "../services/cryptoApi";
+import Cryptocurrencies from "./Cryptocurrencies";
+import News from "./News";
+import Loader from "./Loader";
 
 const { Title } = Typography;
 
@@ -35,6 +36,11 @@ const Homepage = () => {
         <Title level={3} className="show-more"><Link to="/cryptocurrencies">Show more</Link></Title>
       </div>
       <Cryptocurrencies simplified />
+      <br>
+      </br>
+      <div className="chart-styles">
+      <AdvancedRealTimeChart />
+      </div>
       <div className="home-heading-container">
         <Title level={2} className="home-title">Latest Crypto News</Title>
         <Title level={3}><Link to="/news">Show more</Link></Title>
